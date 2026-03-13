@@ -46,7 +46,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        BACKEND_HOST: 34.201.59.80
+        BACKEND_HOST: 34.228.167.50 
         BACKEND_PORT: 8080
     container_name: easycrud-frontend-dev
     restart: unless-stopped
