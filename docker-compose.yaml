@@ -30,7 +30,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:mariadb://database:3306/student_db
       SPRING_DATASOURCE_USERNAME: easycrud_user
       SPRING_DATASOURCE_PASSWORD: easycrud_password
-      SPRING_JPA_HIBERNATE_DDL_AUTO: validate
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_SHOW_SQL: true
       SERVER_PORT: 8080
     ports:
